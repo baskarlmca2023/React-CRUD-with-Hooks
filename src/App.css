@@ -1,0 +1,74 @@
+/* General Styling */
+body {
+    background-color: #f8f9fa;
+    font-family: "Arial", sans-serif;
+  }
+  
+  /* Card Styling */
+  .card {
+    border-radius: 10px;
+    background-color: #fff;
+  }
+  
+  /* Form Styling */
+  form label {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  form input {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  form button {
+    border-radius: 5px;
+    padding: 8px 15px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #0056b3;
+    color: #fff;
+  }
+  
+  /* Button Styling */
+  .btn-warning {
+    background-color: #ffc107;
+    border: none;
+  }
+  
+  .btn-warning:hover {
+    background-color: #e0a800;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    border: none;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c82333;
+  }
+  
+  /* Table Styling */
+  .table {
+    text-align: center;
+    background-color: #ffffff;
+  }
+  
+  .table th {
+    background-color: #343a40;
+    color: #fff;
+  }
+  
+  .table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  
